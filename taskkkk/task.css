@@ -1,0 +1,153 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 100vw;
+    background-color: red;
+    color: white;
+    
+}
+.sub-nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-nav img{
+    height: 68px;
+}
+
+.sub-nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60%;
+    list-style: none;
+}
+
+#btn-1{
+    padding: 6%;
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: aliceblue;
+    background-color:#960c11;
+}
+   
+#btn-2{
+    padding: 6%;
+    width: 85px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: white;
+    background-color:white;
+    margin-left: 10px;
+    color: #960c11;
+    
+}
+
+body{
+    background-image:url("./foodbackground.webp");
+   
+    background-size: cover;
+    height:694px;
+
+}
+
+section{
+
+color: white;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 100px;
+
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.images{
+    margin-left: 150px;
+    /* border: 2px solid; */
+    height: 220px;
+    width: 920px;
+}
+
+.img{
+    /* border: 2px solid; */
+    height: 220px;
+    width: 180px;
+    margin-left: 38px;
+}
+
+.box{
+    margin-left: 150px;
+    /* border: 2px solid; */
+    height: 40px;
+    width: 920px;
+    display: flex;  
+}
+
+.box h1{
+    font-size: 30px;
+    background-color: #960c11;
+    /* border: 2px solid; */
+    height: 40px;
+    width: 180px;
+    margin-left: 41px;
+}
+
+/* aside{
+    color: white;
+    display: flex;
+    width: 888px;
+   
+    margin-left: 341px;
+    
+}
+aside h1{
+   
+    width: 195px;
+    text-align: center;
+    margin-right: 38px;
+    background-color: #960c11;
+} */
+
+.last{
+    margin-left: 22%;
+    color: WHITE;
+    display: flex;
+    align-items: center;
+    
+}
+
+#input{
+    font-size: 15px;
+    height:40px;
+    width: 630px;
+    border-radius: 10px;
+    
+}
+
+div h1{
+    margin-left: 10px;
+}
+div h2{
+    font-size: 12px;
+    margin-left: 15px;
+    align-items: center;
+    border: 2px solid;
+    padding: 12px;
+    width: 168px;
+    text-align: center;
+    background-color: #960c11;
+    border: none;
+    border-radius: 5px;
+}
